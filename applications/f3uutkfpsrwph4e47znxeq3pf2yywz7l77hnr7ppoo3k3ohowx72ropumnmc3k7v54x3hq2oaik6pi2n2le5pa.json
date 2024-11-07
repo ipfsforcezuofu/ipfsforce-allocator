@@ -35,7 +35,7 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-11-06 09:50:26.137193626 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "bba103ec-87d1-48be-aa95-ba44b121f76f",
     "On Chain Address": "f3uutkfpsrwph4e47znxeq3pf2yywz7l77hnr7ppoo3k3ohowx72ropumnmc3k7v54x3hq2oaik6pi2n2le5pa",
     "Multisig Address": "true",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
