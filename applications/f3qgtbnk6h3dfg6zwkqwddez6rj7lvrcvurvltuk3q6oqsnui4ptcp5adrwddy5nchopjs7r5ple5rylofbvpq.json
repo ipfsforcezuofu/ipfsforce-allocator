@@ -35,11 +35,11 @@
     "Weekly Allocation": "1.25PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-11-13 07:11:53.344786753 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2024-11-13 07:11:53.344791495 UTC",
+    "Updated At": "2024-11-13 07:16:34.895386451 UTC",
     "Active Request ID": "dbd715cd-752b-4355-8097-472f1e30da54",
     "On Chain Address": "f3qgtbnk6h3dfg6zwkqwddez6rj7lvrcvurvltuk3q6oqsnui4ptcp5adrwddy5nchopjs7r5ple5rylofbvpq",
     "Multisig Address": "true",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-11-13 07:11:53.344794250 UTC",
       "Updated At": "2024-11-13 07:11:53.344838188 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "500TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "ipfsforcezuofu",
+          "Signing Address": "f1x4nh2yvv2o2wwr4f7l7ocuenz7trdv7z5oqlgni",
+          "Created At": "2024-11-13 07:16:32.467000000 UTC",
+          "Message CID": "bafy2bzacecyzzate4kj7jpjnlyxd3cnokffudvxfz2w5bwefkpox3zd4pvalg"
+        }
+      ]
     }
   ]
 }
