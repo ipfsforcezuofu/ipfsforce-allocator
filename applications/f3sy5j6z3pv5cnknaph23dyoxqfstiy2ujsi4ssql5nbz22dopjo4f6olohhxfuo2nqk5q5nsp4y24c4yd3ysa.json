@@ -35,7 +35,7 @@
     "Weekly Allocation": "2.1PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2025-02-28 09:31:11.234476415 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
