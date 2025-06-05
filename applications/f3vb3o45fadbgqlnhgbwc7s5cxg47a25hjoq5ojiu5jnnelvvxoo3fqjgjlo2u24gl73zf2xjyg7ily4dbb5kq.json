@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f3vb3o45fadbgqlnhgbwc7s5cxg47a25hjoq5ojiu5jnnelvvxoo3fqjgjlo2u24gl73zf2xjyg7ily4dbb5kq",
   "Issue Number": "56",
+  "Client Contract Address": "f410fem4lplqcjer7lxxgnpcrvxk326ktfvfok57tudi",
   "Client": {
     "Name": "CommonVoiceMarketing",
     "Region": "Indonesia",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1 PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-05 09:15:47.005971616 UTC",
+    "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2025-06-05 09:07:07.193919909 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-06-05 09:15:47.005975687 UTC",
+    "Active Request ID": "1f081d0e-3fc1-4f66-9912-51ce43f1bd48",
     "On Chain Address": "f3vb3o45fadbgqlnhgbwc7s5cxg47a25hjoq5ojiu5jnnelvvxoo3fqjgjlo2u24gl73zf2xjyg7ily4dbb5kq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "1f081d0e-3fc1-4f66-9912-51ce43f1bd48",
+      "Request Type": "First",
+      "Created At": "2025-06-05 09:15:47.005978002 UTC",
+      "Updated At": "2025-06-05 09:15:47.005978982 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
