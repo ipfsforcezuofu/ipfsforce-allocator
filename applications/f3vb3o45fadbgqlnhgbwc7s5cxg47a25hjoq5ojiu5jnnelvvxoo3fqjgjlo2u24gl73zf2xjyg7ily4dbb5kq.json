@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3vb3o45fadbgqlnhgbwc7s5cxg47a25hjoq5ojiu5jnnelvvxoo3fqjgjlo2u24gl73zf2xjyg7ily4dbb5kq",
+  "Issue Number": "56",
+  "Client": {
+    "Name": "CommonVoiceMarketing",
+    "Region": "Indonesia",
+    "Industry": "Education & Training",
+    "Website": "https://commonvoice.mozilla.org/en",
+    "Social Media": "https://www.facebook.com/MozillaCommonVoice/",
+    "Social Media Type": "Facebook",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The goal of Common Voice is to create a free and open voice dataset that anyone can use to build voice-enabled apps and tools.\n\nMost voice data today is owned by big companies and mainly includes English and other popular languages. This means voice technology often doesn’t work well for people who speak other languages or come from different backgrounds.\n\nCommon Voice changes this by asking people around the world to donate their voices. The project focuses on including voices from different languages, accents, and communities—like women, people of color, disabled people, and LGBTQIA+ people.\n\nThe voice data is shared publicly so that anyone can use it to build better, fairer voice technology.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Dataset includes: High-quality voice recordings in WAV format, corresponding text transcripts for each audio clip, multilingual support, covering over 100 languages and accents, validation labels, indicating whether other users confirmed the accuracy of the recording, gegment duration data.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "To store data, first import it to create a unique Content Identifier (CID). Next, I establish a storage deal and divide the data into segments, which are encoded and replicated for durability. These segments are then sealed into specific storage units called sectors. Storage providers perform tasks like pre-commitment, sealing, and final commitment to securely store the data. They periodically submit proofs to verify the data's integrity. To access the data, the CID is used to retrieve, decode, and deliver the original content.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://commonvoice.mozilla.org/en/datasets",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "North America, Asia other than Greater China, Greater China, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Venus built-in data transfer, Lotus built-in data transfer, IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03540037 Xiamen, China\n2. f03538787 Seoul, Korea\n3. f03536089 Moscow, Rusia\n4. f03519292 Los Angeles, US\n5. f03550212 Singapore",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10 PiB",
+    "Single Size Dataset": "2 Pib",
+    "Replicas": 5,
+    "Weekly Allocation": "1 PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-06-05 05:39:24.959298154 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3vb3o45fadbgqlnhgbwc7s5cxg47a25hjoq5ojiu5jnnelvvxoo3fqjgjlo2u24gl73zf2xjyg7ily4dbb5kq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
