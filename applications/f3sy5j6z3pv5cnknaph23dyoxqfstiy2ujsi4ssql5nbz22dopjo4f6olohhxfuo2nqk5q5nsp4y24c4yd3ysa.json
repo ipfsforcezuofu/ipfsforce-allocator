@@ -35,11 +35,11 @@
     "Weekly Allocation": "2.1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-06-16 02:41:49.178892796 UTC",
+    "State": "Granted",
+    "Validated At": "2025-06-16 02:44:39.029712280 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2025-06-16 02:41:49.178896454 UTC",
+    "Updated At": "2025-06-16 02:44:39.029707913 UTC",
     "Active Request ID": "940351b5-3843-4940-991a-686d1ea01d90",
     "On Chain Address": "f3sy5j6z3pv5cnknaph23dyoxqfstiy2ujsi4ssql5nbz22dopjo4f6olohhxfuo2nqk5q5nsp4y24c4yd3ysa",
     "Multisig Address": "true",
@@ -147,9 +147,16 @@
       "Request Type": "Refill",
       "Created At": "2025-06-16 02:41:49.178904965 UTC",
       "Updated At": "2025-06-16 02:41:49.178905739 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "ipfsforcezuofu",
+          "Signing Address": "f1x4nh2yvv2o2wwr4f7l7ocuenz7trdv7z5oqlgni",
+          "Created At": "2025-06-16 02:44:36.530000000 UTC",
+          "Message CID": "bafy2bzacecffambrklxkwetdz2tm5f63nl63eq2kkj2nhh4trkdij6ibnrloy"
+        }
+      ]
     }
   ]
 }
