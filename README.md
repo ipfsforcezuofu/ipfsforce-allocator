@@ -1,36 +1,37 @@
-# Filecoin Plus DataCap Allocator - Client Applications
-
+# Filecoin Plus DataCap Allocator 
 Welcome to the GitHub repository dedicated to managing the Lifecycle Data Notations (LDN) Applications for a specific Filecoin Plus DataCap allocator team. This repository serves as a public ledger for DataCap allocation requests and tracking, facilitating transparency and efficiency in the process.
+
+Contact: Jiemezhang@gmail.com
 
 ## Overview
 
 Filecoin Plus (Fil+) enhances the utility of Filecoin by not just storing data, but also verifying the usefulness of the data being stored. DataCap is allocated to clients based on their storage needs and the value their data brings to the Filecoin network. Our team, operating under a shared multisig wallet, acts as an allocator of DataCap, assessing and verifying client requests.
 
-## How It Works
+## Client Scope
 
-Instead of a traditional code repository, this GitHub repo functions as a structured ledger to handle DataCap requests through Client Applications. Each application's lifecycle, from request to allocation, is publicly documented here.
+Any client looking to onboard a Public Dataset to Filecoin can apply to this allocator pathway.
 
-### Requesting DataCap
+## Client Requirement
+- At least 4 sealed copies of a dataset, stored with 4 separate Storage Provider entities, at least in 2 different regional locations(city).
+- The dataset is made readily retrievable on the network. And the retrieval rate should not be less than 75%.
+- Clients disclose their storage provider partners upfront. VPN for storage provider is not allowed.
+## Client Diligence
+Our client verification process is rigorous and multi-step to ensure only qualified entities are onboarded. Each client must submit formation documents—such as certificates of registration. We conduct interviews and independently verify the information provided to confirm the client’s legitimacy. An agreement is established with each client, clearly outlining our requirements.
+Clients are required to commit to high data retrieval rates, balanced deal distribution, exclusive collaboration, none VPN usage, and maintaining a presence in at least two regions across three different countries (with proof of Storage Provider locations). DataCap is allocated gradually, with ongoing performance monitoring to help clients build trust and credibility through compliant behavior. Most records of submitted documents, interview outcomes, signed agreements, and compliance checks are posted on GitHub for community review.
 
-1. **Open an Issue:** Clients looking to request DataCap must open a new issue in this repository. The issue should include detailed information about the project requiring DataCap. Essential information includes but is not limited to:
-   - Project name and description
-   - Amount of DataCap requested
-   - Justification for the DataCap amount
-   - Information about the data owner for KYC
+## Data Diligence
 
-2. **Filling the Application Template:** An issue template will guide clients through submitting the necessary information for their DataCap request.
+We ensure that both data and clients remain within program scope and comply with local and regional legal requirements through a structured diligence process. Clients must clearly describe their data preparation procedures, detailing the nature and size of their data. We randomly verify data ownership by inspecting sample content and routinely sample deal data using mapping files, cross-checking payload CIDs through Filecoin tools. For governance audits, we provide all relevant documentation—including client submissions, compliance agreement, mapping file samples, compliance check logs, and supporting evidence from our checking and monitoring processes.
 
-### Review and Allocation Process
+## Allocation Schedule
 
-1. **Initial Review:** Once an issue is opened, our allocator team will conduct an initial review to ensure all necessary information is provided.
-2. **Discussion & Clarification:** The team may engage in discussions within the issue thread for clarifications or additional information.
-3. **Decision:** The allocator team will make a decision on the DataCap request. If approved, the process moves to the allocation phase.
+- First allocation max 5%, but no more than 256TiB; 
+- Second max 10%; 
+- Third max 15%; 
+- Fourth max 20%; 
+- Fifth and there after max 25%;
+- AND No allocation can be bigger than 2x of the previous one. 
 
-### Managing the Client Application Lifecycle
-
-- Each Client Application's lifecycle is tracked through a `.json` file in this repository, uniquely associated with the client's issue.
-- The `.json` file is created when an application is initially approved for allocation and is updated through pull requests as more DataCap is allocated or as the application status changes.
-- This structured approach ensures transparency and traceability for both clients and the allocator team.
 
 ## Code of Conduct
 
