@@ -32,6 +32,13 @@ We ensure that both data and clients remain within program scope and comply with
 - Fifth and there after max 25%;
 - AND No allocation can be bigger than 2x of the previous one. 
 
+## Handling disputes
+All allocation decisions will be guided by the rubric publicly on Github.
+Since all interactions are intended to occur publically, most allocation decisions should be self-explanatory.
+Any challenges raised regarding allocation decisions should be discussed publicly, e.g., the Github repo.
+If convincing justifications can't be given by the allocator, a dispute resolution application can be filed to the Fil+ Governance after 14 calendar days since its original challenge date.
+Once the dispute resolution application is filed, the Fil+ Governance can assign an arbitrator among the Root Key Holders in order to resolve the dispute.
+Depending on the arbitrator's decisions, a hearing may be given within 30 calendar days of the dispute resolution application.
 
 ## Code of Conduct
 
