@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f3sdjcjzyrcv2mboovi464znpsin3kqog5e7de2ohe26cu3uftvmrqvkivibj2nh6xsbfo4aecqjksiqpwiwiq",
   "Issue Number": "65",
+  "Client Contract Address": "f410fem4lplqcjer7lxxgnpcrvxk326ktfvfok57tudi",
   "Client": {
     "Name": "Protein Data Bank (RCSB)",
     "Region": "Malaysia",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "600 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-29 01:31:58.992030315 UTC",
+    "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2025-08-28 07:25:29.383662867 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-29 01:31:58.992033993 UTC",
+    "Active Request ID": "338e0eb4-1086-40bd-9cc0-3c95fe7bd4ae",
     "On Chain Address": "f3sdjcjzyrcv2mboovi464znpsin3kqog5e7de2ohe26cu3uftvmrqvkivibj2nh6xsbfo4aecqjksiqpwiwiq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "338e0eb4-1086-40bd-9cc0-3c95fe7bd4ae",
+      "Request Type": "First",
+      "Created At": "2025-08-29 01:31:58.992036017 UTC",
+      "Updated At": "2025-08-29 01:31:58.992037004 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
