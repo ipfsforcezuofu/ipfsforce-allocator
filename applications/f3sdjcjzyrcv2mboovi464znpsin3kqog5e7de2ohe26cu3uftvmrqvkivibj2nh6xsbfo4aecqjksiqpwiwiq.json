@@ -36,11 +36,11 @@
     "Weekly Allocation": "600 TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-29 01:31:58.992030315 UTC",
+    "State": "Granted",
+    "Validated At": "2025-09-01 05:19:40.203750768 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2025-08-29 01:31:58.992033993 UTC",
+    "Updated At": "2025-09-01 05:19:40.203746226 UTC",
     "Active Request ID": "338e0eb4-1086-40bd-9cc0-3c95fe7bd4ae",
     "On Chain Address": "f3sdjcjzyrcv2mboovi464znpsin3kqog5e7de2ohe26cu3uftvmrqvkivibj2nh6xsbfo4aecqjksiqpwiwiq",
     "Multisig Address": "false",
@@ -52,9 +52,18 @@
       "Request Type": "First",
       "Created At": "2025-08-29 01:31:58.992036017 UTC",
       "Updated At": "2025-08-29 01:31:58.992037004 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "281474976710656 B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "ipfsforcezuofu",
+          "Signing Address": "f1x4nh2yvv2o2wwr4f7l7ocuenz7trdv7z5oqlgni",
+          "Created At": "2025-09-01 05:19:35.829000000 UTC",
+          "Message CID": "bafy2bzaced5vti5zpfwrogiqdaf2d37nvklmfumqvyry3tglkbmwyxwxpfgxq",
+          "Increase allowance CID": "bafy2bzacecbhibput5jikpp3eh2ub2or2uahtk7vsmg3bscwhhnjmkkancj2o"
+        }
+      ]
     }
   ]
 }
