@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3w2g5jzugv6aepegvlegjlyzigig6x43okv3ylui3nfkfsbanilr5iyfx6azu7hxsh7ttzhl4ijtuduahmdwq",
+  "Issue Number": "70",
+  "Client": {
+    "Name": "Satellogic EarthView dataset",
+    "Region": "Malaysia",
+    "Industry": "Environment",
+    "Website": "https://satellogic.com/",
+    "Social Media": "https://x.com/satellogic",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Satellogic is a company to make satellite images affordable and easy to use. It builds and launches its own satellites to take detailed pictures of Earth. Over the years, it grew from small test satellites to a large fleet with more than 50 satellites in orbit. To support science and technology, Satellogic created the EarthView project, a huge set of free satellite images. The dataset includes millions of pictures taken across many continents. The images are open for anyone to use, especially for research and building AI tools. This project shows Satellogic’s goal to share knowledge and make Earth data more accessible to everyone.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Satellogic EarthView project stores high-resolution satellite imagery data. This includes multi-spectral images (red, green, blue, and near-infrared bands) with approximately one-meter ground resolution, captured by Satellogic’s constellation of Earth-observing satellites. The dataset covers millions of regions across five continents and contains over seven million images collected. Each image includes metadata such as sun angles and satellite viewing geometry, supporting accurate analysis. The data, provided in cloud-optimized GeoTIFF format, enables applications in environmental monitoring, urban planning, and precision agriculture. Researchers also use it to train and validate AI models for remote sensing.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "To prepare the Satellogic EarthView dataset, we first download the high-resolution multi-spectral imagery (RGB and NIR bands) from AWS S3, verifying file integrity against the provided metadata. The imagery, delivered in Cloud-Optimized GeoTIFF (COG) format, is validated for consistency and organized by region and capture date. Using go-graphsplit, the files are segmented into manageable chunks and packaged into CAR files, with each file assigned a unique PieceCID. To ensure efficient retrieval, metadata such as file size, image bands, capture timestamps, and chunk counts are indexed and stored in a PostgreSQL database. Additional metadata like sun angles and satellite off-nadir angles are also preserved for scientific use. The CAR files are then submitted to selected Filecoin Storage Providers via go-graphsplit's deal-making API, enabling decentralized storage. This approach ensures the EarthView dataset is stored in a verifiable, retrievable, and long-term accessible manner.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/satellogic-earthview/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03538789\tHa Batrung, Vitan\n2. f03519270\tHongkong, China\n3. f03519265\tSeoul, South Korea\n4. f03519255\tShenzhen, China\n5. f02003699\tRussia\n6. f03519300\tNibo,China\n7. f03519341\tHK,China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10.5 PiB",
+    "Single Size Dataset": "1.5 PiB",
+    "Replicas": 7,
+    "Weekly Allocation": "800 TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-09-18 03:56:13.401467338 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3w2g5jzugv6aepegvlegjlyzigig6x43okv3ylui3nfkfsbanilr5iyfx6azu7hxsh7ttzhl4ijtuduahmdwq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
