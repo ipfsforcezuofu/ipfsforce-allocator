@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f3w2g5jzugv6aepegvlegjlyzigig6x43okv3ylui3nfkfsbanilr5iyfx6azu7hxsh7ttzhl4ijtuduahmdwq",
   "Issue Number": "70",
+  "Client Contract Address": "f410fem4lplqcjer7lxxgnpcrvxk326ktfvfok57tudi",
   "Client": {
     "Name": "Satellogic EarthView dataset",
     "Region": "Malaysia",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "800 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-18 05:54:40.429834968 UTC",
+    "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2025-09-18 03:56:13.401467338 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-18 05:54:40.429839184 UTC",
+    "Active Request ID": "c97ac629-8af4-4b8d-9aac-8058283e22c5",
     "On Chain Address": "f3w2g5jzugv6aepegvlegjlyzigig6x43okv3ylui3nfkfsbanilr5iyfx6azu7hxsh7ttzhl4ijtuduahmdwq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "c97ac629-8af4-4b8d-9aac-8058283e22c5",
+      "Request Type": "First",
+      "Created At": "2025-09-18 05:54:40.429841192 UTC",
+      "Updated At": "2025-09-18 05:54:40.429842500 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
