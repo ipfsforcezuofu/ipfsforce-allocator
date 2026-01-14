@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2026-01-14 07:19:06.734553116 UTC",
+    "Validated At": "2026-01-14 07:22:36.529291556 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2026-01-14 07:19:06.734552380 UTC",
-    "Active Request ID": "f8c91988-daa6-4f04-ac59-1e1dfa036143",
+    "Updated At": "2026-01-14 07:22:36.529290242 UTC",
+    "Active Request ID": "68751b98-2ac2-4b15-b0a4-6656275e21ed",
     "On Chain Address": "f3sdjcjzyrcv2mboovi464znpsin3kqog5e7de2ohe26cu3uftvmrqvkivibj2nh6xsbfo4aecqjksiqpwiwiq",
     "Multisig Address": "false",
     "edited": false
@@ -181,6 +181,35 @@
             "bafy2bzaceawe4ay6qvm2im5he3xw3wltyt3pw7cgjw2xe2clqt6qqfpux4pfq": [
               "3540552",
               "2003699"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "9e50f3a5-a6bd-4832-864e-74d0457bc66a",
+      "Created At": "2026-01-14 07:22:36.529269627 UTC",
+      "Updated At": "2026-01-14 07:22:36.529278407 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2006966,
+        3540038,
+        2006988,
+        3519246,
+        2006998,
+        3538789,
+        3519300,
+        3519341
+      ],
+      "Signers": [
+        {
+          "Github Username": "ipfsforcezuofu",
+          "Signing Address": "f1x4nh2yvv2o2wwr4f7l7ocuenz7trdv7z5oqlgni",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaspjjvzgk5gxkkehwpk2kr7iepjbdtahpn3gmzexj3yvx5ebrcrw": [
+              "3538789",
+              "3519300",
+              "3519341"
             ]
           }
         }
