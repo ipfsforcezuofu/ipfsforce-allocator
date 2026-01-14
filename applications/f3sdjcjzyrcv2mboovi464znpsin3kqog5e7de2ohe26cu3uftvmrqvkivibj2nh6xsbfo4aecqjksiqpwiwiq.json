@@ -36,12 +36,12 @@
     "Weekly Allocation": "600 TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2026-01-14 07:22:36.529291556 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2026-01-14 07:24:43.758833960 UTC",
     "Validated By": "ipfsforcezuofu",
     "Active": true,
-    "Updated At": "2026-01-14 07:22:36.529290242 UTC",
-    "Active Request ID": "68751b98-2ac2-4b15-b0a4-6656275e21ed",
+    "Updated At": "2026-01-14 07:24:43.758837868 UTC",
+    "Active Request ID": "37a06bf5-19bc-467c-bdc8-6bd0d9b4b637",
     "On Chain Address": "f3sdjcjzyrcv2mboovi464znpsin3kqog5e7de2ohe26cu3uftvmrqvkivibj2nh6xsbfo4aecqjksiqpwiwiq",
     "Multisig Address": "false",
     "edited": false
@@ -64,6 +64,15 @@
           "Increase allowance CID": "bafy2bzacecbhibput5jikpp3eh2ub2or2uahtk7vsmg3bscwhhnjmkkancj2o"
         }
       ]
+    },
+    {
+      "ID": "37a06bf5-19bc-467c-bdc8-6bd0d9b4b637",
+      "Request Type": "Refill",
+      "Created At": "2026-01-14 07:24:43.758841904 UTC",
+      "Updated At": "2026-01-14 07:24:43.758842696 UTC",
+      "Active": true,
+      "Allocation Amount": "562949953421312B",
+      "Signers": []
     }
   ],
   "Storage Providers Change Requests": [
